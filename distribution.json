@@ -1,0 +1,34 @@
+{
+  "meta": {
+    "discord": "https://discord.gg/kH83quegn7"
+  },
+
+  "common": {
+    "minecraftVersion": "1.18.2",
+    "loader": {
+      "type": "forge",
+      "version": "40.3.12"
+    }
+  },
+
+  "instances": [
+    {
+      "id": "InflexionV2",
+      "name": "InflexionV2",
+      "description": "Serveur Minecraft moddé pour InflexionRP",
+      "icon": "",
+
+      "java": {
+        "minRAM": 3,
+        "maxRAM": 6
+      },
+
+      "mods": [
+        {
+          "name": "AutoRegLib",
+          "url": "https://https://github.com/xana802/mod/tree/main/launcheur/AutoRegLib-1.7-53.jar"
+        }
+      ]
+    }
+  ]
+}
